@@ -121,7 +121,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\PortalController.cs" />
+    <Compile Include="Controllers\JinRongController.cs" />
+    <Compile Include="Controllers\JinRongMobileController.cs" />
+    <Compile Include="Controllers\TechnologyController.cs" />
+    <Compile Include="Controllers\TechnologyMobileController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -277,10 +280,10 @@
     <Content Include="Scripts\layui-v2.5.6\font\iconfont.ttf" />
     <Content Include="Scripts\layui-v2.5.6\font\iconfont.woff" />
     <Content Include="Scripts\layui-v2.5.6\font\iconfont.woff2" />
-    <Content Include="Views\Portal\JinRongMobile.cshtml" />
-    <Content Include="Views\Portal\Technology.cshtml" />
-    <Content Include="Views\Portal\JinRong.cshtml" />
-    <Content Include="Views\Portal\TechnologyMobile.cshtml" />
+    <Content Include="Views\JinRongMobile\Index.cshtml" />
+    <Content Include="Views\Technology\Index.cshtml" />
+    <Content Include="Views\TechnologyMobile\Index.cshtml" />
+    <Content Include="Views\JinRong\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
