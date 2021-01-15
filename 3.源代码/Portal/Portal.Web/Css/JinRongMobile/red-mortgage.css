@@ -1,0 +1,160 @@
+/*顶部banner*/
+.rm-banner {
+	/*banner图*/
+	background-image: url('../../Images/JinRongMobile/red-mortgage/banner.png');
+}
+
+
+
+/*优势*/
+
+/*第二第三排上下间距*/
+.rm-advantage{
+	/*外边距 上5px*/
+	margin-top:5px;
+}
+
+/*取消上面为第一排设置的间距*/
+.rm-advantage:nth-child(1){
+	margin-top:30px;
+}
+
+.rm-advantage li{
+	/*浮动 左 作用是使li横放*/
+	float:left;
+	/*宽*/
+	width:49%;
+	/*高*/
+	height:65px;
+	/*圆角*/
+	border-radius:10px;
+	/*阴影*/
+	box-shadow:1px 1px 10px 3px rgba(230,238,251,0.7);
+	/*背景图大小 宽高100% 填充*/
+	background-size:100% 100%;
+	/*相对定位*/
+	position:relative;
+}
+
+/*文字位置*/
+.rm-advantage li span{
+	/*绝对定位*/
+	position:absolute;
+	/*左12%,也就是向右移动12%*/
+	left:12%;
+	/*行高*/
+	line-height:45px;
+	/*字体加粗*/
+	font-weight:bold;
+}
+
+/*文字位置*/
+.rm-advantage li p{
+	/*绝对定位*/
+	position:absolute;
+	/*左12%,也就是向右移动12%*/
+	left:12%;
+	/*行高*/
+	line-height:90px;
+	/*字体大小*/
+	font-size:12px;
+}
+
+/*背景*/
+/*审批宽松*/
+.rm-advantage:nth-child(1) li:nth-child(1) {background-image: url('../../Images/JinRongMobile/red-mortgage/shenpikuansong.png');}
+
+/*额度高*/
+.rm-advantage:nth-child(1) li:nth-child(2) {background-image: url('../../Images/JinRongMobile/red-mortgage/edugao.png');}
+
+/*资金雄厚*/
+.rm-advantage:nth-child(2) li:nth-child(1) {background-image: url('../../Images/JinRongMobile/red-mortgage/zijinxionghou.png');}
+
+/*高效便捷*/
+.rm-advantage:nth-child(2) li:nth-child(2) {background-image: url('../../Images/JinRongMobile/red-mortgage/gaoxiaobianjie.png');}
+
+/*左右间距*/
+.rm-advantage li:nth-child(2){
+	/*外边距 左2%px*/
+	margin-left:2%;
+}
+
+
+/*文本盒子*/
+.rm-textbox{
+	/*高度自适应*/
+	height:auto;
+	padding:5px 15px;
+	/*圆角10px*/
+	border-radius:10px;
+	/*盒子边框阴影*/
+	box-shadow:1px 1px 10px 3px rgba(230,238,251,0.7);
+}
+
+.rm-textbox p{
+	/*字之间间距*/
+	letter-spacing:2px;
+	/*字体大小12px*/
+	font-size:12px;
+	/*外边距 上下5px*/
+	margin:5px auto;
+}
+
+
+
+/*办理流程*/
+.rm-process{
+	/*高*/
+	height:120px;
+	/*圆角*/
+	border-radius:10px;
+	/*阴影*/
+	box-shadow:1px 1px 10px 3px rgba(230,238,251,0.7);
+	/*内边距 上下20px*/
+	padding:20px 0px;
+}
+
+.rm-process li{
+	/*左浮动 使li横放*/
+	float:left;
+	/*文本居中*/
+	text-align:center;
+}
+
+/*在线申请 提交资料 审核放款*/
+.rm-process li:nth-child(1),.rm-process li:nth-child(3),.rm-process li:nth-child(5){
+	/*宽*/
+	width:30%;
+}
+
+/*在线申请 提交资料 审核放款（图片）*/
+.rm-process li:nth-child(1) img,.rm-process li:nth-child(3) img,.rm-process li:nth-child(5) img{
+	/*宽*/
+	width:55px;
+	/*高*/
+	height:55px;
+}
+
+/*在线申请 提交资料 审核放款（文本）*/
+.rm-process li:nth-child(1) p,.rm-process li:nth-child(3) p,.rm-process li:nth-child(5) p{
+	/*字体大小*/
+	font-size:16px;
+	/*外边距 上下5px*/
+	margin:5px auto;
+}
+
+/*右箭头*/
+.rm-process li:nth-child(2),.rm-process li:nth-child(4){
+	/*宽*/
+	width:5%;
+}
+
+/*右箭头（图片）*/
+.rm-process li:nth-child(2) img,.rm-process li:nth-child(4) img{
+	/*宽*/
+	width:25px;
+	/*高*/
+	height:20px;
+	/*外边距 上下25px*/
+	margin:25px auto;
+}
