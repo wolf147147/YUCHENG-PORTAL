@@ -1,0 +1,122 @@
+* {
+    /*页面初始化,清除页面元素原有的内外边距*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	/*文本两端对齐*/
+	text-align:justify;
+	/*允许长单词换行到下一行*/
+	word-wrap:break-word;
+}
+
+a {
+    /*去下划线*/
+    text-decoration: none;
+}
+
+li{
+	/*去点*/
+	list-style:none;
+}
+
+
+
+/*顶部banner*/
+.banner{
+	/*高*/
+	height:125px;
+	/*圆角*/
+	border-radius:10px;
+	/*外边距 上15px*/
+	margin-top:15px;
+	/*背景图大小 宽高100% 填充*/
+	background-size:100% 100%;
+	/*阴影*/
+	box-shadow:1px 10px 25px 3px rgb(000,000,000,0.15);
+}
+
+
+
+/*标题栏*/
+.title-section{
+	/*向上空出30px*/
+	margin-top:30px;
+	/*向下空出20px*/
+	margin-bottom:20px;
+}
+
+/*竖线*/
+.vertical-bar{
+	/*宽3px*/
+	width:3px;
+	/*高20px*/
+	height:20px;
+	/*背景色*/
+	background-color:rgb(71,140,255);
+}
+
+/*标题*/
+.title{
+	/*字体大小18px*/
+	font-size:18px;
+	/*字体加粗*/
+	font-weight:bold;
+	/*行高22px垂直居中*/
+	line-height:22px;
+}
+
+
+
+/*文本盒子*/
+.textbox{
+	/*高度自适应*/
+	height:auto;
+	padding:10px;
+	/*圆角10px*/
+	border-radius:10px;
+	/*盒子边框阴影*/
+	box-shadow:1px 1px 10px 3px rgb(230,238,251,0.7);
+}
+
+.textbox p{
+	/*每段前面空两个字距离*/
+	text-indent:25px;
+	/*字之间间距*/
+	letter-spacing:1px;
+	/*字体大小12px*/
+	font-size:12px;
+}
+
+
+
+/*底部*/
+.bottom{
+	/*向上空出30px*/
+	margin-top:30px;
+}
+
+/*底部按钮*/
+.bottom button{
+	/*高50px*/
+	height:50px;
+	/*去掉按钮边框*/
+	border:none;
+	/*盒子边框阴影*/
+	box-shadow:1px 1px 10px 3px rgb(230,238,251,0.7);
+}
+
+/*底部图片*/
+.bottom img{
+	/*宽25px*/
+	width:25px;
+	/*高25px*/
+	height:25px;
+}
+
+/*咨询电话字体颜色*/
+.bottom button:nth-child(1) span{
+	/*字体颜色*/
+	color:rgb(49,127,235);
+}

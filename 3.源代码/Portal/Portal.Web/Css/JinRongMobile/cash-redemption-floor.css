@@ -1,0 +1,193 @@
+li{
+	float:left;
+}
+
+/*顶部banner*/
+.crf-banner {
+	/*banner图*/
+	background-image: url('../../Images/JinRongMobile/cash-redemption-floor/banner.png');
+}
+
+
+
+/*优势*/
+
+/*第二第三排上下间距*/
+.crf-advantage{
+	/*外边距 上5px*/
+	margin-top:5px;
+}
+
+/*取消上面为第一排设置的间距*/
+.crf-advantage:nth-child(1){
+	/*外边距 上30px*/
+	margin-top:30px;
+}
+
+.crf-advantage li{
+	/*浮动 左 使li横放*/
+	float:left;
+	/*宽*/
+	width:30%;
+	/*高*/
+	height:95px;
+	/*圆角*/
+	border-radius:10px;
+	/*阴影*/
+	box-shadow:1px 1px 10px 3px rgba(230,238,251,0.7);
+	/*背景图大小 宽高100% 填充*/
+	background-size:100% 100%;
+	/*文本居中*/
+	text-align:center;
+}
+
+/*文字位置*/
+.crf-advantage li span{
+	/*字体大小*/
+	font-size:16px;
+	/*字体加粗*/
+	font-weight:bold;
+	/*行高*/
+	line-height:45px;
+}
+
+/*背景*/
+/*专业人员*/
+.crf-advantage:nth-child(1) li:nth-child(1) {background-image: url('../../Images/JinRongMobile/cash-redemption-floor/zhuanyerenyuan.png');}
+
+/*流程简单*/
+.crf-advantage:nth-child(1) li:nth-child(2) {background-image: url('../../Images/JinRongMobile/cash-redemption-floor/liuchengjiandan.png');}
+
+/*安全高效*/
+.crf-advantage:nth-child(1) li:nth-child(3) {	background-image: url('../../Images/JinRongMobile/cash-redemption-floor/anquangaoxiao.png');}
+
+/*左右间距*/
+.crf-advantage li:nth-child(2),.crf-advantage li:nth-child(3){
+	/*外边距 左2%px*/
+	margin-left:5%;
+}
+
+
+
+/*服务案例*/
+.crf-service-case{
+	/*高*/
+	height:auto;
+	/*圆角*/
+	border-radius:10px;
+	/*阴影*/
+	box-shadow:1px 1px 10px 3px rgba(230,238,251,0.7);
+}
+
+/*上半部分*/
+.crf-service-case .layui-row:nth-child(1){
+	/*外边距 上15px 下15px 左10px*/
+	margin:15px 0 15px 10px;
+}
+
+/*小赵图片盒子样式*/
+.xiaozhao-imgbox{
+	/*文本居中*/
+	text-align: center;
+}
+
+/*小赵图片大小*/
+.xiaozhao-imgbox img{
+	/*宽*/
+	width:40px;
+	/*高*/
+	height:40px;
+}
+
+/*小赵*/
+.crf-service-case .layui-row:nth-child(1) span{
+	/*字体加粗*/
+	font-weight:bold;
+}
+
+/*公司老板*/
+.crf-service-case .layui-row:nth-child(1) p {
+	/*字体大小*/
+	font-size: 12px;
+	/*外边距 上2px*/
+	margin-top: 2px;
+}
+
+/*下半部分*/
+.crf-service-case .layui-row:nth-child(2){
+	/*背景颜色*/
+	background-color:rgb(238,238,238);
+	/*圆角 依次为 左上 右上 右下 左下 顺时针*/
+	border-radius:0 0 10px 10px;
+	/*内边距 上下10px 左右15px*/
+	padding:10px 15px;
+}
+
+/*服务案例内容文本样式*/
+.crf-service-case .layui-row:nth-child(2) p{
+	/*每段前空两个字*/
+	text-indent:25px;
+	/*字体大小*/
+	font-size:13px;
+	/*文字间距*/
+	letter-spacing:2px;
+}
+
+
+
+/*办理流程*/
+.crf-process{
+	/*高*/
+	height:120px;
+	/*圆角*/
+	border-radius:10px;
+	/*阴影*/
+	box-shadow:1px 1px 10px 3px rgba(230,238,251,0.7);
+	/*内边距 上下20px*/
+	padding:20px 0px;
+}
+
+.crf-process li{
+	/*左浮动 使li横放*/
+	float:left;
+	/*文本居中*/
+	text-align:center;
+}
+
+/*在线申请 提交资料 审核放款*/
+.crf-process li:nth-child(1),.crf-process li:nth-child(3),.crf-process li:nth-child(5){
+	/*宽*/
+	width:30%;
+}
+
+/*在线申请 提交资料 审核放款（图片）*/
+.crf-process li:nth-child(1) img,.crf-process li:nth-child(3) img,.crf-process li:nth-child(5) img{
+	/*宽*/
+	width:55px;
+	/*高*/
+	height:55px;
+}
+
+/*在线申请 提交资料 审核放款（文本）*/
+.crf-process li:nth-child(1) p,.crf-process li:nth-child(3) p,.crf-process li:nth-child(5) p{
+	/*字体大小*/
+	font-size:16px;
+	/*外边距 上下5px*/
+	margin:5px auto;
+}
+
+/*右箭头*/
+.crf-process li:nth-child(2),.crf-process li:nth-child(4){
+	/*宽*/
+	width:5%;
+}
+
+/*右箭头（图片）*/
+.crf-process li:nth-child(2) img,.crf-process li:nth-child(4) img{
+	/*宽*/
+	width:25px;
+	/*高*/
+	height:20px;
+	/*外边距 上下25px*/
+	margin:25px auto;
+}
