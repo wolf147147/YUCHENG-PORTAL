@@ -1,26 +1,132 @@
-﻿
-@{
-    ViewBag.Title = "Index";
+﻿@{
+    ViewBag.Title = "主页";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<link href="~/Scripts/layui-v2.5.6/css/layui.css" rel="stylesheet" />
 <link href="~/Css/JinRongMobile/index.css" rel="stylesheet" />
 
-<form id="form1" class="layui-form">
-    <div class="layui-row layui-col-space5">
-        <div class="layui-col-xs3">
-            <img src="~/Images/JinRongMobile/city.jpg" />
-        </div>
-        <div class="layui-col-xs3">
-            <img src="~/Images/JinRongMobile/city.jpg" />
-        </div>
-        <div class="layui-col-xs3">
-            <img src="~/Images/JinRongMobile/city.jpg" />
-        </div>
-        <div class="layui-col-xs3">
-            <img src="~/Images/JinRongMobile/city.jpg" />
+<div class="layui-container">
+
+    <!--顶部文字-->
+    <div class="layui-row">
+        <div class="layui-col-xs12 i-title">
+            <p>2021年1月最新央行LPR利率</p>
+            <p><span>3.85</span>&nbsp;%</p>
         </div>
     </div>
-</form>
 
+    <!--导航栏-->
+    <div class="layui-row">
+        <ul>
+            <!--按揭贷款-->
+            <li class="layui-row layui-col-xs12">
+                <a href="~/JinRongMobile/MortgageLoan">
+                    <div class="layui-col-xs2">
+                        <!--图标-->
+                        <img src="~/Images/JinRongMobile/index/anjiedaikuan-2.png" />
+                    </div>
+                    <div class="layui-col-xs10">
+                        <!--按钮-->
+                        <button class="layui-btn layui-btn-sm">立即办理</button>
+                        <div class="i-nav-text">
+                            <!--文本-->
+                            <span>按揭贷款</span>
+                            <p>优选低利率方案，众多合作机构为您挑选</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <!--代办过户-->
+            <li class="layui-row layui-col-xs12">
+                <a href="~/JinRongMobile/ChargeTransfer">
+                    <div class="layui-col-xs2">
+                        <!--图标-->
+                        <img src="~/Images/JinRongMobile/index/daibanguohu-2.png" />
+                    </div>
+                    <div class="layui-col-xs10">
+                        <!--按钮-->
+                        <button class="layui-btn layui-btn-sm">立即办理</button>
+                        <div class="i-nav-text">
+                            <!--文本-->
+                            <span>代办过户</span>
+                            <p>协助交易双方签署居间合同，提供全流程服务</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <!--红本抵押-->
+            <li class="layui-row layui-col-xs12">
+                <a href="~/JinRongMobile/RedMortgage">
+                    <div class="layui-col-xs2">
+                        <!--图标-->
+                        <img src="~/Images/JinRongMobile/index/hongbendiya-2.png" />
+                    </div>
+                    <div class="layui-col-xs10">
+                        <!--按钮-->
+                        <button class="layui-btn layui-btn-sm">立即办理</button>
+                        <div class="i-nav-text">
+                            <!--文本-->
+                            <span>红本抵押</span>
+                            <p>快速放款，解决资金急用燃眉之急</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <!--现金赎楼-->
+            <li class="layui-row layui-col-xs12">
+                <a href="~/JinRongMobile/CashRedemptionFloor">
+                    <div class="layui-col-xs2">
+                        <!--图标-->
+                        <img src="~/Images/JinRongMobile/index/xianjinshulou-2.png" />
+                    </div>
+                    <div class="layui-col-xs10">
+                        <!--按钮-->
+                        <button class="layui-btn layui-btn-sm">立即办理</button>
+                        <div class="i-nav-text">
+                            <!--文本-->
+                            <span>现金赎楼</span>
+                            <p>过桥垫资，收费合理，快速解决融资难题</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <!--交易赎楼-->
+            <li class="layui-row layui-col-xs12">
+                <a href="~/JinRongMobile/TradingForeclosureFloor">
+                    <div class="layui-col-xs2">
+                        <!--图标-->
+                        <img src="~/Images/JinRongMobile/index/jiaoyishulou-2.png" />
+                    </div>
+                    <div class="layui-col-xs10">
+                        <!--按钮-->
+                        <button class="layui-btn layui-btn-sm">立即办理</button>
+                        <div class="i-nav-text">
+                            <!--文本-->
+                            <span>交易赎楼</span>
+                            <p>为买卖双方保驾护航</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!--底部文字 底部二维码-->
+    <div class="layui-row">
+        <div class="layui-col-xs12 i-bottom">
+            <div class="layui-col-xs9">
+                <!--地址-->
+                <p>地址：深圳市福田区民田路171号新华保险大厦1511</p>
+                <!--电话-->
+                <p>电话：0755-82720584</p>
+                <!--官网-->
+                <p>官网：www.sysyctz.com</p>
+            </div>
+            <div class="layui-col-xs3">
+                <!--二维码-->
+                <img src="~/Images/JinRongMobile/index/QR-Code.jpg" />
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,2 +1,138 @@
-﻿body {
+body {
+	/*背景图*/
+	background-image: url('../../Images/JinRongMobile/index/index-bg.png');
+	/*宽高100% 填充整个页面*/
+	background-size: 100% 100%;
+}
+
+
+
+/*顶部文字*/
+.i-title{
+	/*文本居中*/
+	text-align:center;
+	/*外边距 上下11.95%px*/
+	margin:11.95% auto;
+}
+
+.i-title p{
+	/*字体大小*/
+	font-size:22px;
+	/*字体间距*/
+	letter-spacing:3px;
+	/*外边距 上下10px*/
+	margin:10px auto;
+	/*字体颜色*/
+	color:white;
+}
+
+.i-title p span{
+	/*圆角*/
+	border-radius:5px;
+	/*背景色白色*/
+	background-color:white;
+	/*字体颜色*/
+	color:red;
+	/*内边距 上下3px 左右5px*/
+	padding:3px 5px;
+}
+
+
+
+/*导航栏*/
+ul li{
+	/*高 自适应*/
+	height:auto;
+	/*外边距 上下3px 左右自适应*/
+	margin:3px auto;
+	/*阴影*/
+	box-shadow:0 0 5px #000;
+	/*圆角*/
+	border-radius:7px;
+	/*背景色*/
+	background-color:white;
+	/*透明度*/
+	opacity:0.8;
+}
+
+/*导航栏图标*/
+ul li img{
+	/*宽*/
+	width:80px;
+	/*高*/
+	height:80px;
+}
+
+/*导航栏按钮*/
+ul li .layui-col-xs10 button{
+	/*浮动 右*/
+	float:right;
+	/*圆角 顺序为 左上 右上 右下 坐下 顺时针*/
+	border-radius:0 7px 0 7px;
+}
+
+/*导航栏文本位置*/
+.i-nav-text{
+	/*内边距 上15px 左20px*/
+	padding:15px 0 0 20px;
+}
+
+/*导航栏标题*/
+.i-nav-text span{
+	/*字体加粗*/
+	font-weight:bold;
+}
+
+/*导航栏第二行文字*/
+.i-nav-text p{
+	/*字体大小*/
+	font-size:12px;
+	/*外边距 上10px*/
+	margin-top:10px;
+}
+
+/*导航栏标题颜色*/
+ul li:nth-child(1) span{color:rgb(244,110,0);}
+ul li:nth-child(2) span{color:rgb(66,173,50);}
+ul li:nth-child(3) span{color:rgb(26,140,206);}
+ul li:nth-child(4) span{color:rgb(63,201,212);}
+ul li:nth-child(5) span{color:rgb(91,89,169);}
+
+/*导航栏按钮背景色与按钮内文字颜色*/
+ul li:nth-child(1) button{background-color:rgb(255,230,210);color:rgb(255,116,0);}
+ul li:nth-child(2) button{background-color:rgb(231,255,227);color:rgb(66,173,50);}
+ul li:nth-child(3) button{background-color:rgb(226,244,255);color:rgb(26,140,206);}
+ul li:nth-child(4) button{background-color:rgb(228,253,255);color:rgb(71,206,219);}
+ul li:nth-child(5) button{background-color:rgb(232,227,255);color:rgb(152,138,218);}
+
+
+
+/*底部*/
+
+/*底部位置*/
+.i-bottom{
+	/*外边距 上28px*/
+	margin-top:28px;
+}
+
+/*底部文本*/
+.i-bottom p{
+	/*字体大小*/
+	font-size:12px;
+	/*外边距 上下10px*/
+	margin:10px auto;
+	/*字体颜色*/
+	color:white;
+}
+
+/*底部图片 二维码*/
+.i-bottom img{
+	/*宽*/
+	width:70px;
+	/*高*/
+	height:70px;
+	/*浮动 右*/
+	float:right;
+/*	外边距 上15px*/
+	margin-top:15px;
 }
