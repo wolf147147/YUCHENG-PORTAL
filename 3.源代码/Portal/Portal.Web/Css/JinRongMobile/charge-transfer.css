@@ -1,0 +1,129 @@
+/*顶部banner*/
+.ct-banner {
+	/*banner图*/
+	background-image: url('../../Images/JinRongMobile/charge-transfer/banner.png');
+}
+
+
+
+/*优势*/
+
+/*第二第三排上下间距*/
+.ct-advantage{
+	/*外边距 上5px*/
+	margin-top:5px;
+}
+
+/*取消上面为第一排设置的间距*/
+.ct-advantage:nth-child(1){
+	margin:0;
+}
+
+.ct-advantage li{
+	/*浮动 左 作用是使li横放*/
+	float:left;
+	/*宽*/
+	width:49%;
+	/*高*/
+	height:50px;
+	/*圆角*/
+	border-radius:10px;
+	/*阴影*/
+	box-shadow:1px 1px 10px 3px rgba(230,238,251,0.7);
+	/*背景图大小 宽高100% 填充*/
+	background-size:100% 100%;
+	/*相对定位*/
+	position:relative;
+}
+
+/*文字位置*/
+.ct-advantage span{
+	/*绝对定位*/
+	position:absolute;
+	/*左10%,也就是向右移动10%*/
+	left:10%;
+	/*行高 垂直居中*/
+	line-height:50px;
+}
+
+/*背景*/
+/*收费明确、透明*/
+.ct-advantage:nth-child(1) li:nth-child(1) {background-image: url('../../Images/JinRongMobile/charge-transfer/shoufei.png');}
+
+/*交易流程规范清晰*/
+.ct-advantage:nth-child(1) li:nth-child(2) {background-image: url('../../Images/JinRongMobile/charge-transfer/liucheng.png');}
+
+/*安全有保障*/
+.ct-advantage:nth-child(2) li:nth-child(1) {background-image: url('../../Images/JinRongMobile/charge-transfer/anquan.png');}
+
+/*专心、省事、省心*/
+.ct-advantage:nth-child(2) li:nth-child(2) {background-image: url('../../Images/JinRongMobile/charge-transfer/zhuanxin.png');}
+
+.ct-advantage li:nth-child(2){
+	/*外边距 左2%px*/
+	margin-left:2%;
+}
+
+/*一条龙服务,快捷完成所有流程*/
+.ct-fuwu {
+	/*高*/
+	height: 50px;
+	/*圆角*/
+	border-radius: 10px;
+	/*阴影*/
+	box-shadow: 1px 1px 10px 3px rgba(230,238,251,0.7);
+	/*背景图*/
+	background-image: url('../../Images/JinRongMobile/charge-transfer/fuwu.png');
+	/*背景图大小 宽高100% 填充*/
+	background-size: 100% 100%;
+	/*相对定位*/
+	position: relative;
+	/*外边距 上5px*/
+	margin-top: 5px;
+}
+
+/*文字位置*/
+.ct-fuwu span{
+	/*绝对定位*/
+	position:absolute;
+	/*左10%,也就是向右移动10%*/
+	left:10%;
+	/*行高 垂直居中*/
+	line-height:50px;
+}
+
+
+
+/*办理流程*/
+.ct-process {
+	/*高*/
+	height: 300px;
+	/*圆角*/
+	border-radius: 10px;
+	/*阴影*/
+	box-shadow: 1px 1px 10px 3px rgba(230,238,251,0.7);
+	/*背景图*/
+	background-image: url('../../Images/JinRongMobile/charge-transfer/liuchengtu-wuzi.png');
+	/*背景图大小 宽高100% 填充*/
+	background-size: 100% 100%;
+	/*相对定位*/
+	position: relative;
+}
+
+/*流程1：接受咨询产权相关问题*/
+.ct-process div:nth-child(1){position:absolute;top:4.5%;left:23%;}
+
+/*流程2：代理,签署二手居间合同*/
+.ct-process div:nth-child(2){position:absolute;top:22.5%;left:30%;}
+
+/*流程3：办理银行按揭贷款手续*/
+.ct-process div:nth-child(3){position:absolute;top:42.5%;left:32.5%;}
+
+/*流程4：产权登记中心转移过户*/
+.ct-process div:nth-child(4){position:absolute;top:62%;left:31%;}
+
+/*流程5：水电过户手续*/
+.ct-process div:nth-child(5){position:absolute;top:80%;left:24.5%;}
+
+/*序号 字体加粗,字体大小16px*/
+.ct-process div span{font-size:16px;font-weight:bold;}

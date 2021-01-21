@@ -1,0 +1,117 @@
+/*顶部banner*/
+.ml-banner {
+	/*banner图*/
+	background-image: url('../../Images/JinRongMobile/mortgage-loan/banner.png');
+}
+
+
+
+/*优势*/
+
+/*第二第三排上下间距*/
+.ml-advantage{
+	/*外边距 上5px*/
+	margin-top:5px;
+}
+
+/*取消上面为第一排设置的间距*/
+.ml-advantage:nth-child(1){
+	margin:0;
+}
+
+.ml-advantage li{
+	/*浮动 左 作用是使li横放*/
+	float:left;
+	/*宽*/
+	width:49%;
+	/*高*/
+	height:50px;
+	/*圆角*/
+	border-radius:10px;
+	/*阴影*/
+	box-shadow:1px 1px 10px 3px rgba(230,238,251,0.7);
+	/*背景图大小 宽高100% 填充*/
+	background-size:100% 100%;
+	/*相对定位*/
+	position:relative;
+}
+
+/*文字位置*/
+.ml-advantage li span{
+	/*绝对定位*/
+	position:absolute;
+	/*左10%,也就是向右移动10%*/
+	left:10%;
+	/*行高 垂直居中*/
+	line-height:50px;
+}
+
+/*背景*/
+/*银行合作*/
+.ml-advantage:nth-child(1) li:nth-child(1) {
+		background-image: url('../../Images/JinRongMobile/mortgage-loan/yinhanghezuo.png');
+}
+
+/*高效率*/
+.ml-advantage:nth-child(1) li:nth-child(2) {
+	background-image: url('../../Images/JinRongMobile/mortgage-loan/gaoxiaolv.png');
+}
+
+/*利息低*/
+.ml-advantage:nth-child(2) li:nth-child(1) {
+	background-image: url('../../Images/JinRongMobile/mortgage-loan/lixidi.png');
+}
+
+/*放款灵活*/
+.ml-advantage:nth-child(2) li:nth-child(2) {
+	background-image: url('../../Images/JinRongMobile/mortgage-loan/fangkuanlinghuo.png');
+}
+
+/*额度高*/
+.ml-advantage:nth-child(3) li:nth-child(1) {
+	background-image: url('../../Images/JinRongMobile/mortgage-loan/edugao.png');
+}
+
+/*年限长*/
+.ml-advantage:nth-child(3) li:nth-child(2) {
+	background-image: url('../../Images/JinRongMobile/mortgage-loan/nianxianchang.png');
+}
+
+/*左右间距*/
+.ml-advantage li:nth-child(2){
+	/*外边距 左2%px*/
+	margin-left:2%;
+}
+
+
+
+/*办理流程*/
+.ml-process {
+	/*高*/
+	height: 175px;
+	/*圆角*/
+	border-radius: 10px;
+	/*阴影*/
+	box-shadow: 1px 1px 10px 3px rgba(230,238,251,0.7);
+	/*背景图*/
+	background-image: url('../../Images/JinRongMobile/mortgage-loan/liuchengtu-wuzi.png');
+	/*背景图大小 宽高100% 填充*/
+	background-size: 100% 100%;
+	/*相对定位*/
+	position: relative;
+}
+
+/*流程1：准备资料*/
+.ml-process div:nth-child(1){position:absolute;top:9%;left:2.5%;}
+
+/*流程2：向银行提出申请*/
+.ml-process div:nth-child(2){position:absolute;top:77%;left:16.5%;}
+
+/*流程3：批贷后抵押*/
+.ml-process div:nth-child(3){position:absolute;top:9%;left:41%;}
+
+/*流程4：送他项*/
+.ml-process div:nth-child(4){position:absolute;top:77%;left:65%;}
+
+/*流程5：放款*/
+.ml-process div:nth-child(5){position:absolute;top:9%;left:87%;}
